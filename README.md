@@ -1,13 +1,13 @@
-Instructions 
+Instructions
 Install PHP8.1, composer and Node.js.
-Download the project (or clone using GIT)
-Create .env file and configure database credentials
-Navigate to the project's root directory using terminal
-Run composer install
-Set the encryption key by executing php artisan key:generate --ansi
-Run migrations php artisan migrate
-Start local server by executing php artisan serve
-Open new terminal and navigate to the react folder
-Copy react/.env and adjust the VITE_API_BASE_URL parameter
-Run npm install
-Run npm run dev to start vite server for React
+1.	Download the project (or clone using GIT)
+2.	Create .env file and configure database credentials
+3.	Navigate to the project's root directory using terminal
+4.	Run composer install
+5.	Set the encryption key by executing php artisan key:generate --ansi
+6.	Run migrations php artisan migrate
+7.	Start local server by executing php artisan serve
+8.	Open new terminal and navigate to the react folder
+9.	Copy react/.env and adjust the VITE_API_BASE_URL parameter
+10.	Run npm install
+11.	Run npm run dev to start vite server for React
